@@ -16,7 +16,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #222222;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -38,18 +38,18 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(59deg, rgba(48, 47, 48, 0.5) 90%, rgba(8, 236, 236, 0.192), transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
-  font-size: 3.5em;
+  color: #ffffff;
+  font-size: 3.7em;
   white-space: nowrap;
   font-weight: bold;
   padding: 0px 10px;
   transform-style: preserve-3d;
   text-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(109px);
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 0deg)) translateZ(1px);
 }
 
 .container .box span i {
@@ -61,7 +61,7 @@ body {
 }
 
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #ca4646;
 }
 
 @keyframes animate {
